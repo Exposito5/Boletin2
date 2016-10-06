@@ -23,7 +23,7 @@ public class Boletin_2_1 {
     
     base= Float.parseFloat(JOptionPane.showInputDialog("inserte la base"));
     altura= Integer.parseInt(JOptionPane.showInputDialog("inserte la altura"));
-    
+
     JOptionPane.showMessageDialog(null,"El area del triangulo es "+ base*altura/2);
     }
     
